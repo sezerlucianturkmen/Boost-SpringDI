@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        MyFramework myFramework = new MyFramework();
+        IPrinter printer =  (IPrinter)
+                myFramework.getObjectInstance("ErrorPrinter","AliVeliRU");
+        printer.print();
     }
 }

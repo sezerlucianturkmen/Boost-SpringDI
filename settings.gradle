@@ -1,4 +1,5 @@
 rootProject.name = 'SpringDI'
 include 'J001_One'
 include 'J002_TWO'
+include 'SpringFrameWork'
 

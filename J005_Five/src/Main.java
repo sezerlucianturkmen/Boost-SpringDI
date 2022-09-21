@@ -1,5 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        IFactory factory = FactoryBuilder.getInstance();
+        IProvider provider = factory.getProvider();
+        IPrinter printer = factory.getPrinter();
+        printer.setProvider(provider);
+        printer.print();
     }
 }

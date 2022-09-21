@@ -1,4 +1,6 @@
-public class ErrorPrinter implements IPrinter{
+package org.example;
+
+public class ErrorPrinter implements IPrinter {
     IProvider provider;
     @Override
     public void setProvider(IProvider provider) {

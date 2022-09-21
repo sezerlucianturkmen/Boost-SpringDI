@@ -1,3 +1,5 @@
+package org.example;
+
 public class MyFramework {
     private IProvider provider;
     private IPrinter printer;

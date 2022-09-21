@@ -1,8 +1,7 @@
-public class MessageProviderTR implements IProvider {
-
+public class AliVeliRU implements IProvider {
     @Override
     public String getMessage() {
-        return "Merhaba Dünya!";
+        return "Привет, мир!";
     }
 
     @Override

@@ -1,3 +1,5 @@
+package org.example;
+
 public class MessageProviderTR implements IProvider {
 
     @Override

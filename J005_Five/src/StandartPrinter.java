@@ -1,5 +1,5 @@
-public class ErrorPrinter implements IPrinter{
-    IProvider provider;
+public class StandartPrinter implements IPrinter{
+    private IProvider provider;
     @Override
     public void setProvider(IProvider provider) {
         this.provider = provider;
@@ -7,6 +7,6 @@ public class ErrorPrinter implements IPrinter{
 
     @Override
     public void print() {
-        System.err.println(provider.getMessage());
+        System.out.println(provider.getMessage());
     }
 }
